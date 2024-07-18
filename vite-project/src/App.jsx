@@ -5,6 +5,7 @@ import './App.css'
 import LangContext from './Context/UserContext';
 import Header from './Header';
 import UserRegistration from './UserRegistraion';
+import UseReducer from './UseReducer';
 
 function App() {
   const [Lang,setLang]= useState('English');
@@ -18,7 +19,7 @@ function App() {
 
                  <Header/>
                  <UserRegistration/>
-                 {/* <Example/> */}
+                 <UseReducer/>
 
      </LangContext.Provider>
 
